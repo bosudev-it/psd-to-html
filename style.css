@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header-area{
+    background-color: #87509c;
+}
+.middle-area{
+    width:80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.logo-area{
+    width:30%;
+    float:left;
+}
+.menu-area{
+    width:70%;
+    float:left;
+}
+.header-top:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.menu-area ul{
+    float:right;
+    margin:0;
+    padding:0;
+}
+.menu-area ul li{
+    float:left;
+}
+.menu-area ul:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.menu-area ul li a{
+    color:#fff;
+    padding:9px 20px;
+    display:block;
+    font-size:20px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius:5px;
+}
+.menu-area ul li a:hover{
+    background: #643a79;
+}
+.menu-area ul li:first-child{
+    background: #643a79;
+    border-radius:5px;
+}
+.header-bottom{
+    margin:100px 0;
+}
+.header-bottom h2{
+    text-align:center;
+    color:#fff;
+    font-size:35px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.call-to-action{
+    margin:80px 0;
+    text-align:center;
+}
+.call-to-action a{
+    background: #eb7d4b;
+    font-size:16px;
+    padding:20px 70px;
+    border-radius:3px;
+    color:#fff;
+    text-transform:uppercase;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 0 5px 0px #c86a40;
+}
+.call-to-action a:hover{
+    box-shadow: 0 0px 0px #c86a40;
+}
+.service-area{
+    background-color: #17c2a4;
+}
+.middle-area2{
+    width:80%;
+    margin:auto;
+}
+.middle-area2> h2{
+    text-align: center;
+    color:#fff;
+    font-size:35px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 70px;
+    letter-spacing: 5px;
+}
+.middle-area2 hr{
+    width:8%;
+    margin:10px auto;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 4px solid #14a58c;
+    
+}
+.middle-area2> p{
+    text-align: center;
+    color:#ffffffe7;
+    font-size:18px;
+    font-family:'Titillium Web', sans-serif;
+    line-height: 2px;
+    padding-top: 25px;
+}
+.box{
+    width:25%;
+    float:left;
+    margin: 10px 0;
+}
+.service-boxes:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.service-boxes{
+    margin-top: 85px;
+}
+.box h2{
+    color:#fff;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin:10px;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+.box p{
+    color:#ffffffc7;
+    font-family: 'Titillium Web', sans-serif;
+    width:80%;
+    text-align: center;
+    margin:auto;
+}
+.box img{
+    margin: 25px auto;
+    display: block;
+    height:120px;
+}
+.service-boxes{
+   padding-bottom:100px;
+}
+.team-area{
+    background-color: #e7f1f8;
+}
+.tbox img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    margin:auto;
+    display:block;
+}
+.middle-area3{
+    width:80%;
+    margin:auto;
+}
+.tbox{
+    float:left;
+    width:25%;
+}
+.team-box:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.middle-area3> h2{
+    padding-top:100px;
+    text-align: center;
+    font-size:38px;
+    color: #3c4761;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 2px;
+}
+.middle-area3 hr{
+    width:8%;
+    margin:10px auto;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 4px solid #c8d9e5;
+    
+}
+.middle-area3> p{
+    text-align: center;
+    color:#5d677b;
+    font-size:18px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    margin:20px;
+}
+.tbox h2{
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #3c4761;
+}
+.tbox h3{
+    text-align: center;
+    color:#55c2e9;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:16px;
+    font-weight: 600;
+    margin-top:5px;
+}
+.tbox p{
+    color:#9099a8;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Titillium Web', sans-serif;
+    width:85%;
+    margin:auto;
+}
